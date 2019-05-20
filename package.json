@@ -1,0 +1,14 @@
+{
+  "name": "roc-ui",
+  "version": "1.0.0",
+  "description": "ui",
+  "main": "main.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "roc-zhou",
+  "license": "ISC"
+}

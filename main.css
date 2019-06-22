@@ -1,8 +1,8 @@
 /*
  * @Author: roc_zhou
  * @Date:   2019-04-25 14:42:29
- * @Last Modified by:   Administrator
- * @Last Modified time: 2019-05-20 14:31:51
+ * @Last Modified by:   zhouhaipeng
+ * @Last Modified time: 2019-06-22 17:47:01
  */
 
 * {
@@ -149,6 +149,10 @@ code, kbd, pre, samp {
 .flex-wrap {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
+}
+.flex-column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 .flex-auto > * {
   -webkit-flex: 1;

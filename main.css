@@ -1,8 +1,7 @@
 /*
  * @Author: roc_zhou
- * @Date:   2019-04-25 14:42:29
- * @Last Modified by:   zhouhaipeng
- * @Last Modified time: 2019-06-22 17:47:01
+ * 2019 1137938565@qq.com
+ * https://github.com/Roc-zhou/rz-ui
  */
 
 * {
@@ -55,7 +54,8 @@ audio:not([controls]) {
 }
 
 a {
-  background-color: transparent
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:active,

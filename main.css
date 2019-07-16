@@ -8,7 +8,7 @@
   box-sizing: border-box !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-  white-space: normal;
+  /*white-space: normal;*/
   margin: 0;
   padding: 0;
 }

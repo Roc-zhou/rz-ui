@@ -4,7 +4,7 @@
  * https://github.com/Roc-zhou/rz-ui
  */
 
-* {
+ * {
   box-sizing: border-box !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -12,152 +12,44 @@
   margin: 0;
   padding: 0;
 }
-*[class~="no-select"]:not(input):not(textarea) {
-  -moz-user-select: none;
-  /*火狐*/
-  -webkit-user-select: none;
-  /*webkit浏览器*/
-  -ms-user-select: none;
-  /*IE10*/
-  -khtml-user-select: none;
-  /*早期浏览器*/
-  user-select: none;
-}
+
 html,
 body {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   width: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
   margin: 0;
   padding: 0;
   overflow: auto;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block
-}
 
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline
-}
-audio:not([controls]) {
-  display: none;
-  height: 0
-}
-
-[hidden], template {
-  display: none
-}
-
-a {
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active,
-a:hover {
-  outline: 0
-}
-
-abbr[title] {
-  border-bottom: 1px dotted
-}
-
-b,
-strong {
-  font-weight: 700
-}
-
-dfn {
-  font-style: italic
-}
-
-h1 {
-  font-size: 2em;
-  margin: .67em 0
-}
-
-mark {
-  background: #ff0;
-  color: #000
-}
-
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline
-}
-
-sup {
-  top: -.5em
-}
-
-sub {
-  bottom: -.25em
-}
-
-img {
-  border: 0
-}
-
-svg:not(:root) {
-  overflow: hidden
-}
-
-figure {
-  margin: 1em 40px
-}
-
-hr {
-  box-sizing: content-box;
-  height: 0
-}
-
-pre {
-  overflow: auto
-}
-code, kbd, pre, samp {
-  font-family: monospace, monospace;
-  font-size: 1em
-}
-.clear-both::after {
-  content: "clear.both";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.clear-both + * {
-  clear: both;
-}
-.disabled {
-  /*禁止點擊*/
-  cursor: default;
-  pointer-events: none;
-  opacity: .75;
-}
-.flex-box, .flex-auto, .flex-wrap, .flex-column, [class*="items-"], [class*="justify-"], [class*="align-"] {
+.flex-box,
+.flex-auto,
+.flex-wrap,
+.flex-column,
+[class*="items-"],
+[class*="justify-"],
+[class*="align-"] {
   display: flex;
   display: -webkit-flex;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
 }
+
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
-.flex-auto > * {
+
+.flex-auto>* {
   -webkit-flex: 1;
   flex: 1;
 }
+
 .items-start {
   -webkit-align-items: flex-start;
   align-items: flex-start;
@@ -246,8 +138,11 @@ code, kbd, pre, samp {
   position: fixed;
 }
 
-/*鼠标状态*/
+img {
+  border: 0
+}
 
+/*鼠标状态*/
 .cursor-pointer {
   /*连接*/
   cursor: pointer;
@@ -260,21 +155,6 @@ code, kbd, pre, samp {
 
 .cursor-grabbing {
   cursor: grabbing; /*手抓型*/
-}
-
-.cursor-none {
-  /*禁止*/
-  cursor: not-allowed;
-  pointer-events: none;
-  -moz-user-select: none;
-  /*火狐*/
-  -webkit-user-select: none;
-  /*webkit浏览器*/
-  -ms-user-select: none;
-  /*IE10*/
-  -khtml-user-select: none;
-  /*早期浏览器*/
-  user-select: none;
 }
 
 .cursor-crosshair {
@@ -305,4 +185,17 @@ code, kbd, pre, samp {
 .cursor-help {
   /*帮助*/
   cursor: help
+}
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
 }

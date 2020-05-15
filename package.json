@@ -2,7 +2,7 @@
   "name": "rz-ui",
   "version": "2.0.1",
   "description": "ui",
-  "main": "main.css",
+  "main": "dist/main.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,9 @@
     "ui"
   ],
   "author": "roc-zhou",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0"
+  }
 }

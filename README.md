@@ -12,4 +12,3 @@ npm install --save rz-ui
 ```js
 import 'rz-ui'
 ```
-> 更加详细ui地址 https://github.com/noteScript/qc_ui

@@ -4,7 +4,7 @@
  * https://github.com/Roc-zhou/rz-ui
  */
 
- * {
+* {
   box-sizing: border-box !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -18,7 +18,7 @@ body {
   width: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   padding: 0;
   overflow: auto;
@@ -28,9 +28,20 @@ body {
 .flex-auto,
 .flex-wrap,
 .flex-column,
-[class*="items-"],
-[class*="justify-"],
-[class*="align-"] {
+.items-start,
+.items-end,
+.items-center,
+.items-baseline,
+.items-strecth,
+.justify-start,
+.justify-end,
+.justify-center,
+.justify-between,
+.justify-around,
+.align-between,
+.align-center,
+.align-start,
+.align-end {
   display: flex;
   display: -webkit-flex;
 }
@@ -154,7 +165,8 @@ img {
 }
 
 .cursor-grabbing {
-  cursor: grabbing; /*手抓型*/
+  cursor: grabbing;
+  /*手抓型*/
 }
 
 .cursor-crosshair {
@@ -186,6 +198,7 @@ img {
   /*帮助*/
   cursor: help
 }
+
 .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
